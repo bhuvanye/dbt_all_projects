@@ -6,4 +6,4 @@
 --     select * from source_person_data
 -- )
 
-select * from dbt_person_details
+select * from dummy_table_which_does_not_exist_1

@@ -7,7 +7,7 @@ sources:
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
-     - name: 'dbt_person_details'
+     - name: 'dummy_table_which_does_not_exist_1'
        description: 'details of a person'
        columns:
         - name: id
@@ -21,7 +21,7 @@ sources:
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
-     - name: 'dbt_person_phoneno'
+     - name: 'dummy_table_which_does_not_exist_2'
        description: 'phoneno of a person with id'
        columns:
         - name: id
