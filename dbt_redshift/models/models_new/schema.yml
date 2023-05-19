@@ -7,24 +7,24 @@ sources:
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
-     - name: 'dbt_person_details'
+     - name: 'tb2_02_w_pk'
        description: 'details of a person'
        columns:
-        - name: id
+        - name: company_id
           description: 'unique id of person'
           tests:
             - unique
             - not_null 
             
   - name: 'model2'
-    description: 'Person Phone no'
+    description: 'Person Details'
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
-     - name: 'dbt_person_phoneno'
-       description: 'phoneno of a person with id'
+     - name: 'tb2_02_w_pk'
+       description: 'details of a person'
        columns:
-        - name: id
+        - name: company_id
           description: 'id of person'
           tests:
             - not_null 

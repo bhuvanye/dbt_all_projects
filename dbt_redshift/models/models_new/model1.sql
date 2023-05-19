@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 
 with source_person_data as (
-    select * from {{ source('model1', 'dbt_person_details')}}
+    select * from {{ source('model1', 'tb2_02_w_pk')}}
 ),
 
 final as (
