@@ -1,3 +1,3 @@
 select *
 from {{ ref('model1') }}
-where ciiiiiity='New York'
+where ageeeeeee = 1010

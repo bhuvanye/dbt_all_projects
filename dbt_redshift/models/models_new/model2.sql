@@ -2,4 +2,4 @@
 
 select *
 from {{ ref('model1') }}
-where ciiiiiiity='New York'
+where sizeeeee = 0
