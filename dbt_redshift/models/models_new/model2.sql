@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 select *
-from {{ ref('model1') }}
-where size >= 0
+from {{ ref('my_first_dbt_model') }}
+where id = 1

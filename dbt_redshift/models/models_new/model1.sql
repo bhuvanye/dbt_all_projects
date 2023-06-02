@@ -1,11 +1,14 @@
 {{ config(materialized='table') }}
 
-with source_person_data as (
-    select * from {{ source('model1', 'tb2_02_w_pk')}}
-),
+with source_data as (
 
-final as (
-    select * from source_person_data
+    select 1 as id
+    union all
+    select null as id
+
 )
 
-select * from final
+select *
+from source_data
+
+where id is not null
