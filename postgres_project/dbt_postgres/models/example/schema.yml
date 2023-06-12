@@ -17,7 +17,7 @@ sources:
             - not_null 
             
   - name: 'model2'
-    description: 'Person Phone no'
+    description: 'age greater than 40'
     database: 'pg_dataprofile_04'
     schema: 'public'
     tables:
@@ -27,4 +27,17 @@ sources:
         - name: id
           description: 'id of person'
           tests:
-            - not_null 
+            - not_null
+
+  - name: 'model3'
+    description: 'age greater than 75'
+    database: 'pg_dataprofile_04'
+    schema: 'public'
+    tables:
+     - name: 'tbl_09_postgres_profile'
+       description: 'phoneno of a person with id'
+       columns:
+        - name: id
+          description: 'id of person'
+          tests:
+            - not_null

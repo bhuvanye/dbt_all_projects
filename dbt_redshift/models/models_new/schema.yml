@@ -17,7 +17,7 @@ sources:
             - not_null 
             
   - name: 'model2'
-    description: 'Person Details'
+    description: 'size greater than 0'
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
@@ -27,4 +27,17 @@ sources:
         - name: company_id
           description: 'id of person'
           tests:
-            - not_null 
+            - not_null
+
+  - name: 'model3'
+    description: 'monthly spend is greater than 0'
+    database: 'sanity'
+    schema: 'PUBLIC'
+    tables:
+     - name: 'tb2_02_w_pk'
+       description: 'details of a person'
+       columns:
+        - name: id
+          description: 'id of person'
+          tests:
+            - not_null
