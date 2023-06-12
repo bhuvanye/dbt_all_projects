@@ -37,7 +37,7 @@ sources:
      - name: 'tb2_02_w_pk'
        description: 'details of a person'
        columns:
-        - name: id
+        - name: company_id
           description: 'id of person'
           tests:
             - not_null
