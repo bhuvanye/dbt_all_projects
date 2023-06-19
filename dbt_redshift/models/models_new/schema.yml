@@ -7,7 +7,7 @@ sources:
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
-     - name: 'tb2_02_w_pk'
+     - name: 'sanity_tb2_02_w_pk'
        description: 'details of a person'
        columns:
         - name: company_id
@@ -21,7 +21,7 @@ sources:
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
-     - name: 'tb2_02_w_pk'
+     - name: 'sanity_tb2_02_w_pk'
        description: 'details of a person'
        columns:
         - name: company_id
@@ -34,7 +34,7 @@ sources:
     database: 'sanity'
     schema: 'PUBLIC'
     tables:
-     - name: 'tb2_02_w_pk'
+     - name: 'sanity_tb2_02_w_pk'
        description: 'details of a person'
        columns:
         - name: company_id
