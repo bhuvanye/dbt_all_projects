@@ -21,7 +21,7 @@ sources:
     database: 'pg_dataprofile_04'
     schema: 'public'
     tables:
-     - name: 'tbl_09_postgres_profile'
+     - name: 'tbl_05_postgres_profile'
        description: 'phoneno of a person with id'
        columns:
         - name: id
@@ -34,7 +34,7 @@ sources:
     database: 'pg_dataprofile_04'
     schema: 'public'
     tables:
-     - name: 'tbl_09_postgres_profile'
+     - name: 'tbl_05_postgres_profile'
        description: 'phoneno of a person with id'
        columns:
         - name: id
